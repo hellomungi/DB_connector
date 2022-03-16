@@ -1,4 +1,4 @@
-# DB_connector
+```python
 
 import pymysql.cursors
 import pandas as pd
@@ -17,3 +17,4 @@ class db_connect:
         df = pd.DataFrame(rows)
 
         return df
+```
